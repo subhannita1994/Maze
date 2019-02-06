@@ -8,6 +8,7 @@ public class Path {
 		first = last = null;
 	}
 	
+	
 	public void insertFirst(int i, int j) {
 		PathStep step = new PathStep(i,j);
 		step.setNext(first);
